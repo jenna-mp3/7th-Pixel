@@ -24,6 +24,16 @@ img {
     width: 100 px;
 }
 
+h2 { font-family:'lexend','sans-serif';
+    font-weight:normal;
+    font-size: 24 px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 15 px;
+}
+
 .wrapper {
     width: 940 px;
     background-color: #afbbce;
