@@ -41,15 +41,6 @@ color:#4361EE}
     float: left;
     border-right: 1 px solid #FABC2A;
 }
-h2 { font-family:'lexend','sans-serif';
-    font-weight:normal;
-    font-size: 24 px;
-    text-decoration: underline;
-}
-
-p {
-    font-size: 15 px;
-}
 figure {
     float: left;
     padding: 5 px;
