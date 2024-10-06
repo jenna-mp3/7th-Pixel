@@ -1,1 +1,144 @@
+/* Main Section */
 
+
+
+body {
+    font-family: Lexend, Times, sans-serif;
+    line-height: 1.4em;
+    margin: 0px;
+    background-image: url("images/backgroundcopy.png")
+}
+
+#logo {
+    width: 100px;
+}
+
+.faqwrapper {
+    width: 940px;
+    background-color: #afbbce;
+    margin: 20px auto;
+    border: 2px solid #fabc2a;
+}
+
+ul li {
+    display: inline;
+    margin-right: 40px;
+
+}
+
+nav,
+footer {
+    clear: both;
+    background-color: #323B57;
+    height: 30px;
+    color: white
+}
+
+nav ul {
+
+    margin-top: -7px;
+}
+
+nav li a {
+
+    color: white;
+}
+
+nav li a:hover,
+.current {
+    color: #4361EE
+}
+
+a {
+    text-decoration: none;
+    color: #4361EE
+}
+
+.faqcontent {
+    width: 659px;
+    float: left;
+    border-right: 1px solid #FABC2A;
+}
+
+#faqheader {
+    font-family: 'lexend', 'sans-serif';
+    font-weight: normal;
+    font-size: 24px;
+    text-decoration: underline;
+    margin-left: 20px
+}
+
+.question {
+    font-family: 'lexend', 'sans-serif';
+    font-weight: normal;
+    font-size: 19px;
+    margin-left: 30px;
+    padding-right: 20px;
+    color: #F72585;
+}
+
+.answer {
+    margin-left: 40px;
+    padding-right: 20px;
+}
+
+
+
+}
+
+#redirect {
+    padding: 0;
+    border-bottom: none;
+    width: 9em
+}
+
+/* Side Section */
+
+aside {
+    width: 230px;
+    float: left;
+    padding-left: 20px;
+}
+
+aside a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px dotted #FABC2A;
+}
+
+a:hover {
+    color: #FABC2A;
+    transition: 0.2s;
+
+}
+
+a {
+    text-decoration: none;
+    color: #4361EE
+}
+
+.faqlinks {
+    border-bottom: none;
+}
+
+#faqvid {
+    border: 3px solid #F72585;
+}
+
+.asideheader {
+    font-family: 'lexend', 'sans-serif';
+    font-weight: normal;
+    font-size: 24px;
+    text-decoration: underline
+}
+
+
+aside {
+    border-left: 1px solid #fabc2a;
+}
+
+/* Footer Section */
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px
+}
