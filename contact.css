@@ -1,1 +1,77 @@
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+body {
+    font-family: Lexend, Times, sans-serif;
+    line-height: 1.4em;
+    margin: 0px;
+    background-image: url("images/background.png")
+}
+
+#logo {
+    width: 100px;
+}
+
+.wrapper {
+    width: 940px;
+    background-color: #afbbce;
+    margin: 20px auto;
+    border: 2px solid #fabc2a;
+}
+
+ul li {
+    display: inline;
+    margin-right: 40px;
+
+}
+
+nav,
+footer {
+    clear: both;
+    background-color: #323B57;
+    height: 30px;
+    color: white
+}
+
+nav ul {
+    margin-top: -7px
+}
+
+nav li a {
+
+    color: white
+}
+
+nav li a:hover,
+.current {
+    color: #4361EE
+}
+
+a {
+    text-decoration: none;
+    color: #4361EE
+}
+
+/* Main Section Area */
+
+.contact {
+    width: 600px;
+    padding-left: 170px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.Location {
+    clear: left;
+    padding-top: 3px;
+    text-align: center
+}
 
