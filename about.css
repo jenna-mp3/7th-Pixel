@@ -1,1 +1,89 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+body {
+    font-family: Lexend, Times, sans-serif;
+    line-height: 1.4em; 
+    margin: 0px;
+    background-image: url("backgroundcopy.jpg")
+}
+#logo {
+    width: 100px;
+}
+.wrapper {
+    width: 940px;
+    background-color: #afbbce;
+    margin: 20px auto;
+    border: 2px solid #fabc2a;
+}
+ul li { display: inline;
+    margin-right: 40px;   
+}
+nav, footer {
+    clear: both;
+    background-color: #323B57; 
+    height: 30px; 
+    color:white
+}
+nav ul {    
+    margin-top: -7px
+}
+nav li a {  
+    color:white
+}
+nav li a:hover, .current {color:#4361EE}
+a {text-decoration: none;
+color:#4361EE}
+/* Main Section Area */
+.courses {
+    width: 659px;
+    float: left;
+    border-right: 1px solid #FABC2A;
+}
 
+figure {
+    float: left;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #F72585
+}
+        
+img {
+    width: 100px;
+}
+
+
+figcaption {
+    font-size: 80%;
+    text-align:center
+}
+
+h2, h3 { font-family:'lexend','cursive';
+    font-weight:normal
+}
+
+.contact {padding-top: 30px}
+footer {font-size: 80%;
+padding: 7px 0px 0px 20px
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+table, td, th {
+    text-align: center;
+    padding: 5px;
+    border-collapse: collapse;
+    border: 1px solid #323B57;
+}
+table tr:hover {
+        background-color: #fabc2a;
+        transition: 0.5s
+}
+footer {
+    margin-top: 8px
+}
+ADD ALEX PIC
