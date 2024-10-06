@@ -3,30 +3,30 @@ header, section, footer, aside, nav, article, figure, figcaption {
 }
 body {
     font-family: Lexend, Times, sans-serif;
-    line-height: 1.4 em; 
-    margin: 0 px;
+    line-height: 1.4em; 
+    margin: 0px;
     background-image: url("backgroundcopy.png")
 }
 #logo {
-    width: 100 px;
+    width: 100px;
 }
 .wrapper {
-    width: 940 px;
+    width: 940px;
     background-color: #afbbce;
-    margin: 20 px auto;
-    border: 2 px solid #fabc2a;
+    margin: 20px auto;
+    border: 2px solid #fabc2a;
 }
 ul li { display: inline;
-    margin-right: 40 px;   
+    margin-right: 40px;   
 }
 nav, footer {
     clear: both;
     background-color: #323B57; 
-    height: 30 px; 
+    height: 30px; 
     color:white
 }
 nav ul {    
-    margin-top: -7 px
+    margin-top: -7px
 }
 nav li a {  
     color:white
@@ -37,24 +37,24 @@ color:#4361EE}
 
 /* Main Section Area */
 .courses {
-    width: 659 px;
+    width: 659px;
     float: left;
-    border-right: 1 px solid #FABC2A;
+    border-right: 1px solid #FABC2A;
 }
 figure {
     float: left;
-    padding: 5 px;
-    margin: 20 px;
-    border: 1 px solid #F72585
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #F72585
 }
         
 img {
-    width: 100 px;
+    width: 100px;
 }
 
 
 figcaption {
-    font-size: 80 %;
+    font-size: 80%;
     text-align:center
 }
 
@@ -62,9 +62,9 @@ h2, h3 { font-family:'lexend','cursive';
     font-weight:normal
 }
 
-.contact {padding-top: 30 px}
-footer {font-size: 80 %;
-padding: 7 px 0 px 0 px 20 px
+.contact {padding-top: 30px}
+footer {font-size: 80%;
+padding: 7px 0px 0px 20px
 }
 
 table {
