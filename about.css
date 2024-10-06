@@ -36,11 +36,7 @@ a {text-decoration: none;
 color:#4361EE}
 
 /* Main Section Area */
-.mainabout {
-    width: 659px;
-    float: left;
-    border-right: 1px solid #FABC2A;
-}
+
 figure {
     float: left;
     padding: 5px;
