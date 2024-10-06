@@ -17,33 +17,33 @@ body {
 }
 
 #logo {
-    width: 100 px;
+    width: 100px;
 }
 
 img {
-    width: 100 px;
+    width: 100px;
 }
 
 h2 { font-family:'lexend','sans-serif';
     font-weight:normal;
-    font-size: 24 px;
+    font-size: 24px;
     text-decoration: underline;
 }
 
 p {
-    font-size: 15 px;
+    font-size: 15px;
 }
 
 .wrapper {
-    width: 940 px;
+    width: 940px;
     background-color: #afbbce;
-    margin: 20 px auto;
-    border: 2 px solid #fabc2a;
+    margin: 20px auto;
+    border: 2px solid #fabc2a;
 }
 
 ul li {
     display: inline;
-    margin-right: 40 px;
+    margin-right: 40px;
 
 }
 
@@ -51,12 +51,12 @@ nav,
 footer {
     clear: both;
     background-color: #323B57;
-    height: 30 px;
+    height: 30px;
     color: white
 }
 
 nav ul {
-    margin-top: -7 px
+    margin-top: -7px
 }
 
 nav li a {
@@ -76,15 +76,15 @@ a {
 /* Main Section Area */
 
 .contact {
-    width: 600 px;
-    padding-left: 170 px;
-    padding-top: 15 px;
+    width: 600px;
+    padding-left: 170px;
+    padding-top: 15px;
     text-align: center;
 }
 
 .Location {
     clear: left;
-    padding-top: 3 px;
+    padding-top: 3px;
     text-align: center
 }
 
