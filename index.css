@@ -62,17 +62,15 @@ a {
 }
 
 /* Main Section Area */
-.courses {
-    width: 659px;
-    float: left;
-    border-right: 1px solid #FABC2A;
-}
 
 figure {
     float: left;
-    padding: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 0px;
     margin: 20px;
-    border: 1px solid #F72585
+    border: 3px solid #F72585
 }
 
 img {
@@ -91,13 +89,24 @@ figcaption {
 }
 
 
+#homecontent, #help {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+#help {
+    font-weight: 800;
+}
+
 h3 {
     font-family: 'lexend', 'cursive';
     font-weight: normal
 }
 
-h3 {
-    color: #F72585
+#expert {
+    color: #F72585;
+    font-weight: 800;
 }
 
 h2 {
@@ -106,23 +115,11 @@ h2 {
     font-style: normal;
 }
 
-aside {
-    width: 230px;
-    float: left;
-    padding-left: 20px
-}
-
-aside a {
-    display: block;
-    padding: 10px;
-    border-bottom: 1px dotted #FABC2A
-}
-
 .contact {
     padding-top: 30px
 }
 
 footer {
     font-size: 80%;
-    padding: 7px 0px 0px 20px
+    padding: 7px 0px 0px 20px;
 }
