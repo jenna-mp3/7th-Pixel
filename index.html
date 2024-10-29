@@ -5,8 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>7th Pixel Consulting</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/materialize.css"/>
+    <link rel="stylesheet" href="css/materialize.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet" />
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+    <meta charset="UTF-8">
+    <title> Sprint 2 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Icon Font/jQuery CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-
+/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Materialize CDN here -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <style>
+        .brand-logo {
+            margin-left: 10px;
+        }
+
+        .parallax img {
+            width: 100%;
+            height: 20vh
+        }
+
+        img.activator {
+            height: 200px
+        }
+
+    </style>
+    <!-- JavaScript/jQuery Function Initialization inside <script> </script> -->
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+
+            $('.parallax').parallax();
+            $('.slider').slider({
+                indicators: false,
+                height: 500,
+                interval: 2000
+            });
+        });
+
+    </script>
 </head>
 
 <body>
@@ -24,14 +82,44 @@
                 </ul>
             </nav>
         </header>
+        
+        <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="sprintimg1.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Professional Opinions</h3>
+                    
+                </div>
+            </li>
+            <li>
+                <img src="sprintimg2.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Excellent Reviews</h3>
+               
+                </div>
+            </li>
+            <li>
+                <img src="sprintimg3.jpeg"> <!-- random image -->
+                <div class="caption right-align">
+                    <h3>Top Tier Analysis</h3>
+                   
+                </div>
+            </li>
+            <li>
+                <img src="springimg4.jpeg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3>7th Pixel</h3>
+                    
+                </div>
+            </li>
+        </ul>
+    </div>
 
         <!-- Main Content Section -->
-        <section class="courses">
+        <section id="opening">
             <article>
-                <figure>
-                    <img src="images/gamingimage.png" alt="Gaming Image"/>
-                </figure>
-                <h2>Welcome to 7th Pixel!</h2>
+                <h2 id="open" >Welcome to 7th Pixel!</h2>
                 <h3 id="expert">An expert guide to gaming</h3>
             </article>
 
@@ -49,3 +137,4 @@
 </body>
 
 </html>
+
